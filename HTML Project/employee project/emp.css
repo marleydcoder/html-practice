@@ -1,0 +1,72 @@
+#A{
+	background-color: rgb(121, 156, 45);
+}
+/** the html form tag ID is A **/
+
+#B{
+	margin: 10px;
+	border-style: solid;
+	border-width: thin;
+	border-radius: 15px;
+	border-color: rgb(90, 99, 70);
+	padding: 5px;
+	text-align: center;
+	
+}
+
+/** the header id is B **/
+
+#C{
+	margin: 10px;
+	border-style: solid;
+	border-width: thin;
+	background-color: rgb( 184,209,125);
+	padding: 5px;
+	border-radius: 10px;
+	font-size:  ;
+
+
+}
+
+#D{
+	
+	margin: 10px;
+	border-style: solid;
+	border-width: thin;
+	background-color: rgb( 184,209,125);
+	padding: 5px;
+	border-radius: 10px;
+}
+
+#E {
+	align : center;
+	margin: 10px;
+	border-style: solid;
+	border-width: thin;
+	background-color: rgb( 184,209,125);
+	padding: 5px;
+	border-radius: 10px
+
+
+}
+
+#F{
+	margin: 10px;
+	text-align: center;
+	border-width: thin;
+}
+
+#G{
+
+	margin: 10px;
+	padding: 5px;
+	text-align: center;
+
+}
+
+#H{
+	margin: 10px;
+	padding: 6px;
+	text-align: center;
+	border:thin ;
+}

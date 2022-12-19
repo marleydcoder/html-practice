@@ -1,0 +1,52 @@
+.first_headerrr{
+
+color: brown;
+
+}
+
+#idone{
+	color: darkred;
+}
+
+h1{
+	color: red;
+}
+
+.st_beterburg{
+
+	color: darkred;
+}
+
+
+.Header2{
+	color: darkred;
+}
+
+.p{
+
+	color: blue;
+}
+
+
+.p1{
+	color: darkgreen;
+}
+
+
+h1:hover{
+	color: darkgreen;
+}
+
+li:first-child{
+	color: blue;
+}
+
+
+#button{
+	color: purple;
+}
+
+#button:hover{
+
+	color: white;
+}

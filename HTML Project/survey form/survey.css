@@ -1,0 +1,53 @@
+.border{
+	border: 9px ; padding: 9px ; margin: 10px;
+}
+ /** div tag class name is border **/
+
+
+
+
+#gender{
+	background-color: darkgoldenrod; 
+}
+
+/** the form tag id code **/
+
+
+
+body{
+
+}
+
+*{
+	color: black;
+}
+
+<link ref= "stylesheet" type ="text/css" href="../fp.com />
+
+
+body{
+	background-image: ;
+}
+
+.option{
+	border:  12px solid red; 
+	padding: 5px;
+	margin: 10px;
+}
+
+.radio{
+	border:  12px solid red; 
+	padding: 5px;
+	margin: 10px;
+}
+
+.navvy{
+	background-color: grey;
+	padding: 1px;
+	border-left: solid 12px red ;
+	border-bottom: double 5px blue;
+	border-radius: 10px;
+	color: white;
+	font-family: new times romans;
+	text-align: center;
+}

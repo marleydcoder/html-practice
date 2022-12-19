@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title> cat photos wwebsite</title>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="font-google.com">
+
+  <style>
+body{
+  background : linear-gradient(to bottom, rgb( 223, 171, 190), rgba( 194, 225, 126,0));  
+  font-size: 2.1vw;
+  bsck
+}
+
+
+ h1{
+   text-align: center;
+   position: relative;
+   right: 0px;
+   top: 0px ;
+   color: green; 
+   font-family: "lato", sans-serif; 
+  
+ }
+
+h2 {
+  color: Green;
+  
+}
+
+h2:hover{
+  color: red;
+  opacity: 0.5;
+  background: white;
+  width: 140px;
+}
+
+@media screen and (max-width: 800px) {
+.left, .right, .main{
+  width: 100%;
+}
+}
+
+
+#grad{
+   background-image: linear-gradient( to right, rgb(255,149,166));
+   margin: 50px 10px; 
+   border: double green;
+   width: 70%; 
+
+}
+
+
+.flex-container{
+  display: flex;
+  background-color: dodgerblue;
+  flex-flow: row wrap;
+
+  
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  border: 3px solid black
+  width: 100%;
+  
+}
+
+
+
+
+</style>
+
+</head>
+
+  <body>
+    <header>
+     <h1> catPhotoApp</h1>
+    </header>
+
+    <main>
+
+      <div class="navbox"> 
+            <ul class="navul">
+          <li class="navvy21"><a  href="google.com" class="link1">home</a></li>
+          <li class="navvy21"><a  href ="google.com" class="link1"> services</a></li>
+          <li class="navvy21"><a  href = "google.com" class="link1"> about </a></li>
+          <li class="navvy"><a href= "google.com" class="link2"> contact</a></li>
+        </ul>
+      </div>
+
+      
+        
+         <h2>Cat Photos</h2>
+
+        <!-- TODO: Add link to cat photos -->
+        <p>Click here to view more <a target="_blank" href="https://freecatphotoapp.com" class="link3">cat photos</a>.</p>
+        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+      </section>
+
+      <section>
+        <picture>
+          <source srcset="flower.jpg" media="(max-width: 600px)">
+            <source srcset="cup-image.jpg" media="(max-width: 1500px)">
+              <source srcset= "confession.jpg" media="(max-width: 200px)">
+            <source srcset="maltaguiness.jpg" media="(max-width: 3000px)">
+              <source srcset="monkeyunited.jpg" media="(max-width: 5000px)">
+              <img src="img.jpg" alt="flowers">
+
+          </picture>
+
+      </section>
+
+      <section>
+        <h2>Cat Lists</h2>
+        <h3>Things cats love:</h3>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+          <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+        </figure>
+        <h3>Top 3 things cats hate:</h3>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+        </figure>
+      </section>
+
+      <div id="grad"></div>
+
+      <div class="flex-container">
+        <div class="container-item">M</div>
+        <div class="container-item">A</div>
+        <div class="container-item">R</div>
+        <div class="container-item">L</div>
+        <div class="container-item">E</div>  
+        <div class="container-item">Y</div>  
+      </div>  
+
+
+    
+      <section>
+        <h2>Cat Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <!-- we use fieldset to differeentiate each field of personal data -->
+
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+          </fieldset>
+          <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+     
+    <p>No &copycopyright - freeCodeCamp.org</p>
+     &lt&lt&lt &reg Registered company&gt&gt&gt
+    </footer>
+  </body>
+  </html> 

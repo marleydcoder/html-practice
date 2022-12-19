@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang= "en">
+
+<html>
+
+  <head>
+  	
+	 <meta charset= "utf-8" />
+	 <meta name="viewport" content="width=device-width ,initial-scale=1.0"/>
+	 <meta name = "author" content = "employee survey"/> 
+	 <meta name = "description" content= " this is a single page showing the employee survey" />
+   <title> Employee interest survey</title>
+   <link rel= "stylesheet" type="text/css" href="../emp/emp.css" />
+  </head>
+   <!-- having completed the head element we move to the body element following the html basic structure rules -->
+
+
+  <body>
+  	
+  	<!-- next we use the form tag to ask for data from the employee -->
+
+    <form id="A"> 
+    	<div align="center">
+    	 <h1 id= "B"> Employee interest survey form
+       </h1> 
+         <!-- we use the input tag to query the employee -->
+
+    	 Enter your name: <input  id="C" type = "text" name="name" size=35 max-length= 35 /> <br/>
+    	 Enter your department: <input id="D" type = "text" name= "department" size=35 max-length = 35 /> <br/><br/>
+    	 Tell us a little about yourself: <textarea id= "E" name="comment" cols=30 rows=4></textarea><br/>
+
+       <p id="F">
+
+    	   Do you excercise at home? 
+    	   <input type ="radio" name= "exercise" value="yes"/>Yes
+    	   <input type ="radio" name= "exercise" value="no"/>No </p>
+
+    	 <p id="G" >  
+    	 	  How do you like to read about your favorite topics? <br/>
+              <input type="checkbox" name="book"/>book
+              <input type="checkbox" name="webs" /> online resources
+              <input type="checkbox" name="phone" /> phone Apps
+              <input type="checkbox" name="magazine" /> magazine
+         </p>
+
+        <p id="H">what genre of movie do you like? <select name="genre"> 
+         	<option name ="action">action
+         	<option name ="sc-fi">sc-fi
+         	<option name ="love">romance
+         	<option name ="comedy">comedy
+         	<option name ="adventures">adventures
+         </select><br/><br/>
+        </p>
+
+          <!-- we create a button to submit the survey data -->
+         <input  type= "submit" />
+
+
+
+       
+    	</div>
+
+
+
+  </body>	
+	
+
+
+
+</html>

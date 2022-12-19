@@ -1,0 +1,80 @@
+body{
+	background-color: grey;
+	color:white ;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	text-decoration: underline;
+}
+
+p{
+	text-align: center;
+	word-spacing: 
+}
+
+.input1{
+	display: inline-block;
+	max-width: auto;
+	padding: 0.5%;
+	margin: 1%;
+	border-bottom: 3px solid black;
+}
+
+.input2{
+	display: inline-block;
+	max-width: 33.3%;
+	border-bottom: 3px solid black;
+}
+.input3{
+	display: inline-block;
+	width: 30%;
+	border-bottom: 3px solid black;
+}
+
+.input4{
+	display: inline-block;
+	width: 98%;
+	border-bottom: 3px solid black;
+}
+
+.input7{
+	display: inline-block;
+	width: 98%;
+	border-bottom: 3px solid black;
+}
+
+.input8{
+	display: inline-block;
+	width: 50%;
+	border-bottom: 3px solid black;
+}
+
+.input9{
+	display: inline-block;
+	width: 48%;
+	border-bottom: 3px solid black;
+}
+
+#formstyle legend{
+	color: pink;
+	margin: 1px;
+
+}
+
+fieldset{
+	margin: auto;
+}
+
+.header::first-line{
+	color: navy;
+	font-size: xx-large;
+	background-color: white;
+	text-align: center;
+
+}
+
+form div{
+	margin: auto
+}

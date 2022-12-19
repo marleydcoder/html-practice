@@ -1,0 +1,244 @@
+<idoctype html>
+<html>
+ <head>
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<title> test net </title>
+ 	<link type="text/css" rel=stylesheet href="/">s
+ <style>
+
+ body{
+ 	background: linear-gradient(to bottom right, red, blue);
+
+ }
+
+ ol{
+ 	list-style-type: none;
+ 	margin: 0;
+ 	padding: 0;
+ 	display: flex;
+ 	flex-flow: row ;
+ 	
+ }
+
+ ol li{
+ 	margin-right: 5;
+	
+ }
+
+.flexitems{
+	display: flex;
+  background-color: dodgerblue;
+  flex-flow: row wrap;
+  width: 37.5em;
+  
+	
+}
+
+.flexitems > div{
+  margin: 10px;
+  padding: 20px;
+  font-size: 2em;
+  border: 3px solid ;
+  background-color: #f1f1f1;
+  text-shadow: 1px 2px 1px 3px;
+  
+}
+
+@media screen and (max-width: 31.25em){
+	div li:hover{
+  color: red;
+  }
+
+}
+
+
+@media screen and (max-width: 58.25em){
+	div::first-letter{
+		color: red;
+		background-color: grey;
+	}
+
+}	
+
+canvas{
+	border: 1px solid black;
+	margin-bottom: 15px;
+	
+}
+
+ .nav{
+ 	
+
+}
+
+
+.nav-items{
+ 	background-color: grey;
+ 	margin: 10px 20px 15px 5px;
+ 	box-sizing: border-box;
+ 	padding: 10px;
+
+ }
+
+@media screen and (max-width: 700px){
+	body{
+		background-color: lightgreen;
+		background-image: linear-gradient( to top left , lightgreen, red );
+
+	}
+
+}
+
+@media screen and (max-width: 150px){
+	body{
+		background-image: url("img_flowers.jpg");
+	}
+
+}
+
+@media screen and (max-width: 500px){
+	body{
+		background: url("flowers.jpg");
+		background-repeat: no-repeat;
+		background-size: 200px;
+		position:  absolute;
+		position: right-top;
+		left: 20px;
+		right: 20px;
+		z-index: -1;
+		
+	}
+
+}
+
+
+.nav-items{
+	font-family: verdana, sans-serif;
+}
+
+
+ </style>
+
+
+</head>
+<!-- A simple html form -->
+
+<body>
+	<header>
+		<h1> my form<h1>
+	</header>
+
+	<section>
+		<ol class="nav">
+			<li  class="nav-items"> home</li>
+			<li  class="nav-items">service</li>
+			<li  class="nav-items"> about<li>
+		    <li  class="nav-items"> contact<li>
+		</ol>
+
+ <div class=" flexitems">
+   <div> A</div>
+   <div>b</div>
+   <div>c</div>
+   <div>d</div>
+   <div>e</div>
+ </div>	
+	</section>
+	<canvas>
+	</canvas>
+ <form>
+
+	<div>
+      <ol>
+      	<li class="dog" style="max-width:70%" ><label>Enter your Name <input style="width:80%"  type="text" name=" name" placeholder="enter your name" value="" ></label><li>
+
+      		<li style="width: 48%"><label>Enter your last Name <input style="width: 50%" type="text" name=" name" placeholder="enter your name" value="" >
+	 </label>
+	</li>
+  </div><br>
+
+  <!-- email address section -->
+
+  <div> 
+	 <label>Email Address<input type="email" name="email" value="" placeholder="example@email.com" style="width:100% ;></label>
+ 
+ </div></br>	
+
+    
+   <div>
+	<label>Gender </br> 
+		<label> <input type="radio" name="gender" value="male" checked>Male</label>
+		<label> <input type="radio" name= "gender" value="female">female</label>
+		<label> <input type="radio" name=" gender" value="other">other</label>
+		<div></br>
+
+   <div>
+   	 <label> Age<span><input type="date" name="Age" value="" ></span></label>
+   </div> </br>
+   
+
+   <div>
+   	 <label> select your profession <br>
+   	 	 <label><input type="checkbox" name="profession" value="tailor">tailor</label>
+   	 	 <label><input type="checkbox" name="profession" value="retailer">retailer</label>
+   	 	 <label><input type="checkbox" name= "profession" value="driver">driver</label>
+   	 	 <label><input type="checkbox" name="profession" value="teacher">teacher</label>
+   	 	 <label><input type="checkbox" name="profession" value="lecturer">lecturer</label>
+   	 	 <label><input type="checkbox" name="profession" value="banker">banker</label>
+   	 	 <label><input type="checkbox" name="profession" value="realtor">realtor</label>
+   	 	 <label><input type="checkbox" name="profession" value="programmer">programmer</label>
+   	 	 <label><input type="checkbox" name="profession" value="investor">investor</label>
+
+   </div><br>
+
+   <div>
+   	<label>what kind of car do you drive
+      <Select name="car">
+      	<option disabled selected value="">select option</option>
+     	<option value="toyota">volvo</option>
+     	<option  value="toyota">toyota</option>
+     	<option value="toyota">rolls royce</option>
+     	<option value="toyota">benz</option>
+     	<option value="toyota">bmw</option>
+     	<option value="toyota">masarati</option>
+     	<option value="toyota">bentley</option>
+     	<option value="toyota">ferrari</option>
+     	</label>
+
+     </Select>
+   </div>
+
+   <section>
+   	 <div>
+   	 	<a>
+   		  <img/>
+   	    </a>
+     </div>
+
+     <div>
+     	<a><img/></a>
+     </div>
+
+     <div>
+     	<a><img></a>
+     </div>
+
+     <!-- ffirst javascript code -->
+     <p id="demo"> java can change elment </p>
+     <button type="button" onclick='document.getElementById("demo").innerHTML ="hello victor! whats up"'> click to see magic!</button>
+   </section>
+
+
+   <!-- button -->
+
+   <div>
+    <input type="submit" value="submit"> <span><input type="reset" value="reset">
+
+ 
+			
+
+
+	
+</form>
+</body>
+</html>
